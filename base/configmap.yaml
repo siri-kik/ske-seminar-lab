@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: order-service-config
+data:
+  APP_ENV: "base"
+  LOG_LEVEL: "info"
+  WELCOME_MSG: "Welcome to SKE Microservice Seminar"
